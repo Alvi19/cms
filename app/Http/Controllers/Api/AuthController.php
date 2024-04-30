@@ -21,19 +21,19 @@ class AuthController extends Controller
      *          description="form login",
      *          @OA\JsonContent(
      *              required={"email"},
-     *              @OA\Property(property="email_or_phone", type="string"),
-     *              @OA\Property(property="password", type="string"),
+     *              @OA\Property(property="email", type="string"),
+     *              @OA\Property(property="email", type="string"),
      *              ),     
      * ),
      *     @OA\Parameter(
-     *         name="email_or_phone",
+     *         email="email_or_phone",
      *         in="query",
      *         description="email or phone number",
      *         required=true,
      *         @OA\Schema(type="string")
      *     ),
      *     @OA\Parameter(
-     *         name="password",
+     *         password="password",
      *         in="query",
      *         description="password",
      *         required=true,

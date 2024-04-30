@@ -8,7 +8,7 @@ use Illuminate\Routing\Controller as BaseController;
 
 /**
  * @OA\Info(
- *    title="Documentation API CMS",
+ *    title="Documentation API",
  *    version="1.0.0",
  * )
  * @OA\SecurityScheme(

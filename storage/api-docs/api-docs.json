@@ -1,7 +1,7 @@
 {
     "openapi": "3.0.0",
     "info": {
-        "title": "Documentation API CMS",
+        "title": "Documentation API",
         "version": "1.0.0"
     },
     "paths": {
@@ -43,7 +43,7 @@
                                     "email"
                                 ],
                                 "properties": {
-                                    "email_or_phone": {
+                                    "email": {
                                         "type": "string"
                                     },
                                     "password": {
